@@ -1,5 +1,4 @@
-
- body {
+body {
   color: antiquewhite;
   font-family: Helvetica, verdana, sans-serif;
   background-color: gainsboro;
@@ -19,17 +18,16 @@ header {
   background-position: 80%;
   background-attachment: fixed;
   z-index: 9999;
-  }
+}
 
 header h1 {
-  font-weight:bold;
+  font-weight: bold;
   margin: 15px;
   font-size: 36px;
   color: #493a5a;
-  text-shadow: 0 0 10px rgba(0,0,0,0.25);
-  }
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
 
-    
 header a {
   text-decoration: none;
   color: #493a5a;
@@ -51,7 +49,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -59,27 +57,10 @@ header nav ul li a:hover {
   color: gray;
   border-radius: 10px;
   text-shadow: none;
-  }
-
-/* Footer Style*/
-footer {
-  background-image: url("./25100.jpg");
-  padding: 20px 25px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
 }
-
-footer h2{
-  color:#493a5a;
-  text-align: right;
-  font-size: 30px;
-  margin: 0;
-}
-/*end footer*/
 
 /*Hero style*/
+
 .hero {
   background-image: url("../assets/dreamstime_xxl_88755164.jpg");
   height: 600px;
@@ -92,7 +73,7 @@ footer h2{
 
 .card {
   display: flex;
-  padding: 10px ;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
   border: 2px solid red;
@@ -100,16 +81,19 @@ footer h2{
 
 .about-me {
   text-align: center;
-  border: 2px solid  #493a5a;
-  background-color:  rgba(128, 128, 128, 75%);
+  border: 2px solid #493a5a;
+  background-color: rgba(128, 128, 128, 75%);
   transform: rotate(-90deg)
-
 }
 
 .main-container {
   display: flex;
   justify-content: flex-end;
+}
 
+.container {
+  border-bottom: 1px solid gray;
+  margin-bottom: 2px;
 }
 
 .name {
@@ -117,13 +101,90 @@ footer h2{
   justify-content: flex-end;
 }
 
-
-.biopic {
+.bio-pic {
   width: 25%;
   border: 2px solid orange;
   justify-content: flex-end;
 }
 
+/* End Hero Style*/
 
-  
+/* Example Section*?
 
+/* Footer Style*/
+
+/* .work-label {
+  text-align: center;
+  border: 2px solid #493a5a;
+  background-color: rgba(128, 128, 128, 75%);
+  transform: rotate(-90deg)
+} */
+
+/* End Example Section*/
+
+/* Contact Section */
+
+.contact-card {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.contact-label {
+  text-align: center;
+  border: 2px solid #493a5a;
+  background-color: rgba(128, 128, 128, 75%);
+  transform: rotate(-90deg)
+}
+
+contact-label
+.cm-buttons
+  header a {
+    text-decoration: none;
+    color: #493a5a;
+  }
+  .cm-buttons nav {
+    margin: 10px 0;
+  }
+  .cm-buttons nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  .cm-buttons nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .cm-buttons nav ul li a:hover {
+    background: rgb(199, 181, 199);
+    color: gray;
+    border-radius: 10px;
+    text-shadow: none;
+  }
+
+
+/* End Contact Section */
+
+footer {
+  background-image: url("./25100.jpg");
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: #493a5a;
+  text-align: right;
+  font-size: 30px;
+  margin: 0;
+}
+
+/*end footer*/
