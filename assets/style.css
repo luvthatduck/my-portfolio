@@ -113,12 +113,38 @@ header nav ul li a:hover {
 
 /* Footer Style*/
 
-/* .work-label {
+.example-container { 
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(0, 255, 136);
+}
+
+.work-label {
   text-align: center;
   border: 2px solid #493a5a;
   background-color: rgba(128, 128, 128, 75%);
-  transform: rotate(-90deg)
-} */
+  transform: rotate(-90deg);
+}
+
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-content: space-around;
+  border: 2px solid orange;
+  padding: 10px;
+ 
+ 
+}
+/* 
+.example-container {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid rgb(255, 0, 191);
+  justify-content: flex-end; */
 
 /* End Example Section*/
 
@@ -136,38 +162,39 @@ header nav ul li a:hover {
   text-align: center;
   border: 2px solid #493a5a;
   background-color: rgba(128, 128, 128, 75%);
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
 }
 
-contact-label
-.cm-buttons
-  header a {
-    text-decoration: none;
-    color: #493a5a;
-  }
-  .cm-buttons nav {
-    margin: 10px 0;
-  }
-  .cm-buttons nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  .cm-buttons nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  .cm-buttons nav ul li a:hover {
-    background: rgb(199, 181, 199);
-    color: gray;
-    border-radius: 10px;
-    text-shadow: none;
-  }
+.contact-label .cm-buttons a {
+  text-decoration: none;
+  color: #493a5a;
+}
 
+.cm-buttons nav {
+  margin: 10px 0;
+}
+
+.cm-buttons nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.cm-buttons nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cm-buttons nav ul li a:hover {
+  background: rgb(199, 181, 199);
+  color: gray;
+  border-radius: 10px;
+  text-shadow: none;
+}
 
 /* End Contact Section */
 
