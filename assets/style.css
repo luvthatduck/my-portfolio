@@ -91,11 +91,37 @@ footer h2{
 /*Hero style end*/
 
 .card {
-  position: relative;
   display: flex;
   padding: 10px ;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  border: 2px solid red;
+}
+
+.about-me {
+  text-align: center;
+  border: 2px solid  #493a5a;
+  background-color:  rgba(128, 128, 128, 75%);
+  transform: rotate(-90deg)
+
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.name {
+  border: 2px solid blue;
+  justify-content: flex-end;
+}
+
+
+.biopic {
+  width: 25%;
+  border: 2px solid orange;
+  justify-content: flex-end;
 }
 
 
