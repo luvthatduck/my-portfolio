@@ -76,14 +76,15 @@ header nav ul li a:hover {
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 
 .about-me {
   text-align: center;
-  border: 2px solid #493a5a;
+  /* border: 2px solid #493a5a; */
   background-color: rgba(128, 128, 128, 75%);
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
+  border-radius: 14px;
+  padding: 10px
 }
 
 .main-container {
@@ -94,57 +95,75 @@ header nav ul li a:hover {
 .container {
   border-bottom: 1px solid gray;
   margin-bottom: 2px;
+  padding-bottom: 10px;
 }
 
 .name {
-  border: 2px solid blue;
   justify-content: flex-end;
 }
 
 .bio-pic {
   width: 25%;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   justify-content: flex-end;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* End Hero Style*/
 
-/* Example Section*?
+/* Example Section*/
 
 /* Footer Style*/
 
-.example-container { 
+.example-container {
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid rgb(0, 255, 136);
+  border-top: 10px solid  #493a5a;
+  border-bottom: 10px solid #493a5a ;
+  /* border: 2px solid rgb(0, 255, 136); */
 }
 
 .work-label {
   text-align: center;
-  border: 2px solid #493a5a;
+  /* border: 2px solid #493a5a; */
   background-color: rgba(128, 128, 128, 75%);
   transform: rotate(-90deg);
+  border-radius: 14px;
+  padding: 10px;
 }
 
-.work-links {
+.work-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  border-radius: 14px;
+}
+
+.work-link1 {
+  /* width: 45%; */
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content:flex-end;
-  align-content: space-around;
-  border: 2px solid orange;
-  padding: 10px;
- 
- 
-}
-/* 
-.example-container {
-  display: flex;
+  flex-direction: row-reverse;
   justify-content: flex-end;
-  border: 2px solid rgb(255, 0, 191);
-  justify-content: flex-end; */
+  /* border: 2px solid orange; */
+  border-radius: 14px;
+  padding: 10px;
+  /* flex-basis: 30%; */
+}
+
+.work-link1 span {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 25%;
+  border-radius: 14px;
+  background-color:rgba(128, 128, 128, 75%);
+  color:#493a5a;
+  padding: 10px 5px;
+  text-align: center;
+}
 
 /* End Example Section*/
 
@@ -153,16 +172,19 @@ header nav ul li a:hover {
 .contact-card {
   display: flex;
   padding: 10px;
+  margin: 40px 0 40px 0;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 
 .contact-label {
   text-align: center;
-  border: 2px solid #493a5a;
+  /* border: 2px solid #493a5a; */
   background-color: rgba(128, 128, 128, 75%);
   transform: rotate(-90deg);
+  border-radius: 14px;
+  border-right: 2px solid #493a5a;
+  padding: 10px;
 }
 
 .contact-label .cm-buttons a {
@@ -187,6 +209,8 @@ header nav ul li a:hover {
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #493a5a;
 }
 
 .cm-buttons nav ul li a:hover {
@@ -213,5 +237,6 @@ footer h2 {
   font-size: 30px;
   margin: 0;
 }
+
 
 /*end footer*/
