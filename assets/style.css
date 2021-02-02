@@ -104,8 +104,9 @@ header nav ul li a:hover {
 
 .bio-pic {
   width: 25%;
-  /* border: 2px solid orange; */
+  border: 2px solid antiquewhite;
   justify-content: flex-end;
+  border-radius: 14px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -123,6 +124,7 @@ header nav ul li a:hover {
   border-top: 10px solid #493a5a;
   border-bottom: 10px solid #493a5a;
   /* border: 2px solid rgb(0, 255, 136); */
+
 }
 
 .work-label {
@@ -168,7 +170,7 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* border: 2px solid orange; */
+  border: 2px solid antiquewhite;
   border-radius: 14px;
   padding: 10px;
   flex-basis: 100%;
@@ -181,9 +183,9 @@ header nav ul li a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-basis: 25%;
+  flex-basis: 24%;
   background-image: url(./worklinkimage4.png);
-  /* border: 2px solid greenyellow; */
+  border: 2px solid antiquewhite;
   border-radius: 14px;
 
 }
@@ -200,6 +202,11 @@ div.work-container span {
   text-align: center;
   
 }
+.work-link1 a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
 
 /* End Example Section*/
 
@@ -270,3 +277,43 @@ footer h2 {
 }
 
 /*end footer*/
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .card, .example-container, .contact-card {
+    width: 90%;
+    text-align: center;
+    flex: 0 80%;
+  }
+  .hero {
+    width:90%;
+    flex: 0 80%;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+}
+
