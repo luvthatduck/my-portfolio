@@ -138,35 +138,55 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-radius: 14px;
+
+  /* border-radius: 14px; */
 }
+
+/* .work-container:nth-child(5n+2) {
+  order: 0;
+}
+
+.work-container:nth-child(5n+3) {
+  order: 1;
+}
+
+.work-container:nth-child(5n+4) {
+  order: 2;
+} */
+/* .container::before, 
+.container::after {
+  content: "";
+  flex-basis: 100%;
+  width: 100%;
+  order: 2;
+} */
 
 .work-link1 {
   height: 300px;
   width: 300px;
-  background-image: url(./Screenshot\ \(11\).png);
+  background-image: url(./Screenshot\ \(12\).png);
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   /* border: 2px solid orange; */
   border-radius: 14px;
   padding: 10px;
-  flex-basis: 50%;
+  flex-basis: 100%;
 }
 
 .work-link2, .work-link3, .work-link4, .work-link5 {
   height: 200px;
   width: 200px;
-  display: flex;
+  display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  flex-basis: 25;
+  justify-content: space-around;
+  flex-basis: 25%;
   background-image: url(./worklinkimage4.png);
   /* border: 2px solid greenyellow; */
   border-radius: 14px;
-}
 
+}
 
 div.work-container span {
   display: flex;
@@ -175,9 +195,10 @@ div.work-container span {
   width: 50%;
   border-radius: 14px;
   background-color: rgba(128, 128, 128, 75%);
-  color:antiquewhite;
+  color: antiquewhite;
   padding: 10px 5px;
   text-align: center;
+  
 }
 
 /* End Example Section*/
