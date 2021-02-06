@@ -1,6 +1,8 @@
 # my-portfolio
 
 Challenge 2: Advanced CSS Challenge: Professional Portfolio
+
+
 This challenge required me to create a workiing web portfolio of my web designs, contact information and responsive layout. 
 
 Work Completed
