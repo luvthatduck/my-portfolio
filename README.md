@@ -11,5 +11,7 @@ Work Completed
 3. Created images with link to deployed of my first application
 4. Created responsive layout for various viewpoints. 
 Screenshot
-![screenshot of deployed site](https://photos.app.goo.gl/scG6fGunWbyW3wsy)
-Link to deployed site ( https://luvthatduck.github.io/my-portfolio/ ) 
+![screenshot of deployed site](  https://photos.app.goo.gl/2ws8akybzHEtyEVD6 )
+
+
+![Link to deployed site] ( https://luvthatduck.github.io/my-portfolio/ ) 
