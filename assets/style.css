@@ -112,10 +112,7 @@ header nav ul li a:hover {
 
 /* End Hero Style*/
 
-/* Example Section*/
-
-/* Footer Style*/
-
+/* Start Example Section*/
 .example-container {
   display: flex;
   /* padding: 10px; */
@@ -124,7 +121,6 @@ header nav ul li a:hover {
   border-top: 10px solid #493a5a;
   border-bottom: 10px solid #493a5a;
   /* border: 2px solid rgb(0, 255, 136); */
-
 }
 
 .work-label {
@@ -140,28 +136,8 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
   /* border-radius: 14px; */
 }
-
-/* .work-container:nth-child(5n+2) {
-  order: 0;
-}
-
-.work-container:nth-child(5n+3) {
-  order: 1;
-}
-
-.work-container:nth-child(5n+4) {
-  order: 2;
-} */
-/* .container::before, 
-.container::after {
-  content: "";
-  flex-basis: 100%;
-  width: 100%;
-  order: 2;
-} */
 
 .work-link1 {
   height: 300px;
@@ -179,7 +155,7 @@ header nav ul li a:hover {
 .work-link2, .work-link3, .work-link4, .work-link5 {
   height: 200px;
   width: 200px;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -187,7 +163,6 @@ header nav ul li a:hover {
   background-image: url(./worklinkimage4.png);
   border: 2px solid antiquewhite;
   border-radius: 14px;
-
 }
 
 div.work-container span {
@@ -200,13 +175,12 @@ div.work-container span {
   color: antiquewhite;
   padding: 10px 5px;
   text-align: center;
-  
 }
+
 .work-link1 a {
   text-decoration: none;
   color: antiquewhite;
 }
-
 
 /* End Example Section*/
 
@@ -283,37 +257,68 @@ footer h2 {
     padding-bottom: 0;
     justify-content: center;
   }
-
   header h1 {
     width: 100%;
     text-align: center;
   }
-
   header nav ul {
     margin-top: 20px;
     justify-content: center;
   }
-
   header nav ul li a {
     font-size: 20px;
   }
-
   .card, .example-container, .contact-card {
     width: 90%;
     text-align: center;
     flex: 0 80%;
   }
   .hero {
-    width:90%;
+    width: 90%;
     flex: 0 80%;
   }
-
   footer h2, footer div {
     text-align: center;
     width: 100%;
   }
-
-
-
+  .main-container {
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+  }
+  .cm-buttons {
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+  }
 }
 
+@media screen and (max-width: 768) {}
+
+@media screen and (max-width: 575px) {
+  .header {
+    width: 90%;
+  }
+  header nav ul li a {
+    font-size: 25px;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .work-container {
+    flex: 0 100%;
+  }
+  .contact-card {
+    text-align: center;
+  }
+  .contact-card {
+    flex: 0 100%;
+  }
+  .cm-buttons {
+    align-items: center;
+    flex-direction: column;
+  }
+  .cm-buttons nav ul li {
+    font: 75px;
+  }
+}
