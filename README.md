@@ -13,7 +13,7 @@ Work Completed
 
 
 
-screenshot of deployed site  ( https://photos.app.goo.gl/2ws8akybzHEtyEVD6 )
+![image](./assets/Screenshot%(15).png?raw=true)
 
 
 ![Link to deployed site] ( https://luvthatduck.github.io/my-portfolio/ ) 
