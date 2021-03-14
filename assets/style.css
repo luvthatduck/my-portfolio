@@ -151,8 +151,47 @@ header nav ul li a:hover {
   padding: 10px;
   flex-basis: 100%;
 }
+.work-link2 {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 24%;
+  background-image: url(./Screenshot\ 2021-03-14\ 104411.png);
+  border: 2px solid antiquewhite;
+  border-radius: 14px;
+}
+.work-link3 {
+height: 200px;
+width: 200px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-basis: 24%;
+background-image: url(./workdayscreenshot.png);
+border: 2px solid antiquewhite;
+border-radius: 14px;
+}
 
-.work-link2, .work-link3, .work-link4, .work-link5 {
+.work-link4 {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 24%;
+  background-image: url(./WeatherDashboardScreen.png);
+  border: 2px solid antiquewhite;
+  border-radius: 14px;
+  }
+
+
+
+ .work-link5 {
   height: 200px;
   width: 200px;
   display: flex;
